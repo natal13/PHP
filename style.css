@@ -1,0 +1,192 @@
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        justify-content: space-around;
+    }
+
+li {
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+ }
+
+
+nav {
+      padding: 20px;
+      background-color:#4d004d;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+  }
+
+.nav-header {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    width: 50%;
+    font-family: 'Acme', sans-serif;
+}
+
+.first-header {
+    font-size: 40px;
+ }
+
+.nav-menu {
+    width: 50%;
+}
+
+.container {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: space-around;
+    background-color: rgb(246,246,246);
+    font-size: 18px;
+    font-family: 'Questrial', sans-serif;
+}
+
+.page_header {
+    width: 50%;
+}
+
+.form-container {
+    margin-right: auto;
+    margin-left: auto;
+    width:60%;
+    font-size: 15px;
+}
+
+form {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.form_label {
+    display: block;
+    margin-top: 20px;
+}
+
+.for_label-add {
+    margin-left: 50px;
+    font-size: 12px;
+}
+
+.form_input {
+    width: 180px;
+    height: 35px;
+    font-size: 15px;
+}
+
+button {
+    margin-top: 40px;
+    margin-left: 100px;
+    width: 120px;
+    height: 25px;
+    font-size: 14px;
+}
+
+.calc_output {
+    width: 450px;
+    height: 150px;
+    margin-left: 300px;
+    margin-top: 40px;
+    background-color: rgb(173, 216, 230);
+    border-radius: 10px;
+    border: solid 3px black;
+    padding: 5px;
+    text-align: center;
+}
+
+.output_header {
+    margin-top: 0px;
+    margin-bottom:15px;
+}
+
+.output_text {
+    font-size: 15px;
+}
+
+.footer-container {
+    background-color: black;
+    padding: 10px;
+    text-align: right;
+    margin: 0px;
+    color: white;
+}
+
+p {
+    margin: 0px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.header_title {
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.err {
+    font-size: 14px;
+    color: red;font-weight: bold;
+}
+
+.err_header {
+    font-size: 16px;
+    color:red;
+    font-weight:bold;
+}
+
+.admin_users {
+    color: blue;
+    font-size: 13px;
+    text-decoration:underline;
+    text-transform:none;
+    font-weight:normal;
+}
+
+.delete_text {
+    color: black;
+}
+
+.submit_button {
+    margin-bottom: 30px;
+}
+
+table {
+    border-collapse:separate;
+	border:2px solid black;
+}
+
+td {
+    border:1px solid black;
+	padding:5px;
+}
+
+.admin_button{
+    font-size: 10px;
+    text-decoration: underline;
+}
+
